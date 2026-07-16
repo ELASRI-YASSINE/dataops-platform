@@ -1,0 +1,24 @@
+# Environnement
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Données (trop lourdes pour GitHub)
+data/
+*.csv
+*.parquet
+
+# Credentials GCP
+credentials/
+*.json
+!dbt_models/schema.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
