@@ -1,0 +1,3 @@
+2026-07-16 20:03:17 | INFO | dataops | Pipeline started
+2026-07-16 20:03:17 | WARNING | dataops | Dataset missing
+2026-07-16 20:03:17 | ERROR | dataops | API Unauthorized
