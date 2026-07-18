@@ -51,3 +51,21 @@ class DatasetProcessor:
         print("Dataset processed successfully.\n")
 
         return df
+if __name__ == "__main__":
+    import sys
+    from dataops.transformation.config.datasets import DATASETS
+
+    if len(sys.argv) < 2:
+        print("Usage: python process_dataset.py <dataset_name>")
+        print(f"Available: {[d['name'] for d in DATASETS]}")
+        sys.exit(1)
+
+    name = sys.argv[1]
+    dataset = next((d for d in DATASETS if d["name"] == name), None)
+
+    if not dataset:
+        print(f"❌ Dataset '{name}' not found")
+        sys.exit(1)
+
+    processor = DatasetProcessor()
+    processor.process(dataset["input"], dataset["output"])

@@ -1,0 +1,57 @@
+[0m16:12:06.386720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a5bc72df980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a5bcb32d880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a5bc8353470>]}
+
+
+============================== 16:12:06.393807 | 68c41b6f-f92b-480a-9a80-5b2621656980 ==============================
+[0m16:12:06.393807 [info ] [MainThread]: Running with dbt=1.7.19
+[0m16:12:06.394835 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/home/yassine/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init dataops_dbt', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:12:06.395643 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/yassine/.dbt')}
+[0m16:12:06.396311 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m16:12:06.397731 [debug] [MainThread]: Starter project path: /home/yassine/dataops-platform/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m16:12:06.402025 [info ] [MainThread]: 
+Your new dbt project "dataops_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:12:06.402711 [info ] [MainThread]: Setting up your profile.
+[0m16:14:12.224013 [info ] [MainThread]: Profile dataops_dbt written to /home/yassine/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:14:12.234400 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 125.91677, "process_user_time": 3.79787, "process_kernel_time": 0.963921, "process_mem_max_rss": "201708", "process_in_blocks": "16448", "process_out_blocks": "80"}
+[0m16:14:12.237115 [debug] [MainThread]: Command `dbt init` succeeded at 16:14:12.236427 after 125.92 seconds
+[0m16:14:12.239250 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a5bc73c8fe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a5baa8221e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a5baf799d30>]}
+[0m16:14:12.241400 [debug] [MainThread]: Flushing usage events
+[0m16:20:09.516759 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7db2bcb94a40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7db2bcc853a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7db2bcfdea80>]}
+
+
+============================== 16:20:09.523408 | 8b3dccc8-1513-49fb-833e-3ed2286ce81f ==============================
+[0m16:20:09.523408 [info ] [MainThread]: Running with dbt=1.7.19
+[0m16:20:09.524275 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/home/yassine/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init dataops_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m16:20:09.525550 [info ] [MainThread]: A project called dataops_dbt already exists here.
+[0m16:20:09.526840 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.071870856, "process_user_time": 2.679291, "process_kernel_time": 0.106931, "process_mem_max_rss": "98628", "process_out_blocks": "16", "process_in_blocks": "0"}
+[0m16:20:09.527639 [debug] [MainThread]: Command `dbt init` succeeded at 16:20:09.527414 after 0.07 seconds
+[0m16:20:09.528258 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7db2bcdb6a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7db2bcc853a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7db2bdb43260>]}
+[0m16:20:09.528918 [debug] [MainThread]: Flushing usage events
+[0m16:26:43.062519 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77f48a9e6060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77f48b41a1e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77f48a9e6840>]}
+
+
+============================== 16:26:43.068471 | 3956dfbb-f0f2-498b-b946-70e31ec6e938 ==============================
+[0m16:26:43.068471 [info ] [MainThread]: Running with dbt=1.7.19
+[0m16:26:43.069495 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/yassine/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:26:43.070777 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/yassine/dataops-platform/dbt/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:26:43.072822 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.067425065, "process_user_time": 2.551373, "process_kernel_time": 0.090013, "process_mem_max_rss": "98504", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m16:26:43.074011 [debug] [MainThread]: Command `dbt run` failed at 16:26:43.073691 after 0.07 seconds
+[0m16:26:43.074931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77f48b41a1e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77f48aacf320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77f48ab0d970>]}
+[0m16:26:43.075892 [debug] [MainThread]: Flushing usage events

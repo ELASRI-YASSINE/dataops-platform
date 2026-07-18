@@ -23,5 +23,15 @@ DATASETS = [
         "name": "reviews",
         "input": "gs://dataops-pfa-datalake/raw/olist/reviews/olist_order_reviews_dataset.csv",
         "output": "gs://dataops-pfa-datalake/processed/olist/reviews/"
+    },
+    {
+        "name": "sellers",
+        "input": "gs://dataops-pfa-datalake/raw/olist/sellers/olist_sellers_dataset.csv",
+        "output": "gs://dataops-pfa-datalake/processed/olist/sellers/"
+    },
+    {
+        "name": "geolocation",
+        "input": "gs://dataops-pfa-datalake/raw/olist/geolocation/olist_geolocation_dataset.csv",
+        "output": "gs://dataops-pfa-datalake/processed/olist/geolocation/"
     }
 ]
