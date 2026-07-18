@@ -4,12 +4,25 @@ sources:
   - name: bronze
     database: dataops-pfa-502611
     schema: dataops_warehouse
-
     tables:
       - name: bronze_orders
       - name: bronze_customers
       - name: bronze_products
       - name: bronze_sellers
-      - name: bronze_reviews
       - name: bronze_payments
+      - name: bronze_reviews
       - name: bronze_geolocation
+      - name: bronze_order_items
+
+  - name: dataops_warehouse
+    database: dataops-pfa-502611
+    schema: dataops_warehouse
+    tables:
+      - name: bronze_orders
+      - name: bronze_customers
+      - name: bronze_products
+      - name: bronze_sellers
+      - name: bronze_payments
+      - name: bronze_reviews
+      - name: bronze_geolocation
+      - name: bronze_order_items

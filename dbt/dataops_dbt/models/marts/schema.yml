@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: fact_orders
+    description: "Table de faits principale — commandes livrées"
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+      - name: total_revenue
+        tests:
+          - not_null
+
+  - name: dim_customers
+    description: "Dimension clients enrichie"
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+
+  - name: revenue_by_category
+    description: "KPI revenue par catégorie"
+    columns:
+      - name: product_category_name
+        tests:
+          - not_null:
+              config:
+                severity: warn
+
+  - name: delivery_performance
+    description: "KPI performance livraison par état"
+    columns:
+      - name: customer_state
+        tests:
+          - not_null
+          - unique
