@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+
+  - name: bronze
+
+    database: dataops-pfa-502611
+
+    schema: dataops_warehouse
+
+    tables:
+
+      - name: bronze_orders
+
+      - name: bronze_customers
+
+      - name: bronze_products
+
+      - name: bronze_sellers
