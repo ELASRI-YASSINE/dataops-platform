@@ -1,0 +1,141 @@
+2026-07-18 10:19:59 | INFO     | pipeline | ============================================================
+2026-07-18 10:19:59 | INFO     | pipeline | 🚀 DATAOPS PLATFORM — PIPELINE PRINCIPAL
+2026-07-18 10:19:59 | INFO     | pipeline |    Démarrage : 2026-07-18T09:19:59.954356
+2026-07-18 10:19:59 | INFO     | pipeline | ============================================================
+2026-07-18 10:20:02 | INFO     | ingestion.base.uploader | ✅ GCS connecté → gs://dataops-pfa-datalake
+2026-07-18 10:20:02 | INFO     | ingestion.base.uploader | ✅ GCS connecté → gs://dataops-pfa-datalake
+2026-07-18 10:20:03 | INFO     | ingestion.base.uploader | ✅ GCS connecté → gs://dataops-pfa-datalake
+2026-07-18 10:20:03 | INFO     | pipeline | 
+──────────────────────────────────────────────────
+2026-07-18 10:20:03 | INFO     | pipeline | ▶  📦 Olist Dataset
+2026-07-18 10:20:03 | INFO     | pipeline | ──────────────────────────────────────────────────
+2026-07-18 10:20:03 | INFO     | OlistConnector | 🚀 Démarrage OlistConnector
+2026-07-18 10:20:03 | INFO     | OlistConnector | 📂 Lecture depuis : data/
+2026-07-18 10:20:03 | INFO     | OlistConnector |   ✅ orders          16.8 MB
+2026-07-18 10:20:03 | INFO     | OlistConnector |   ✅ order_items     14.7 MB
+2026-07-18 10:20:03 | INFO     | OlistConnector |   ✅ customers       8.6 MB
+2026-07-18 10:20:03 | INFO     | OlistConnector |   ✅ products        2.3 MB
+2026-07-18 10:20:03 | INFO     | OlistConnector |   ✅ sellers         0.2 MB
+2026-07-18 10:20:03 | INFO     | OlistConnector |   ✅ payments        5.5 MB
+2026-07-18 10:20:03 | INFO     | OlistConnector |   ✅ reviews         13.8 MB
+2026-07-18 10:20:03 | INFO     | OlistConnector |   ✅ geolocation     58.4 MB
+2026-07-18 10:20:03 | INFO     | OlistConnector |   📊 orders          8 cols | 0.38% nulls
+2026-07-18 10:20:03 | INFO     | OlistConnector |   📊 order_items     7 cols | 0.0% nulls
+2026-07-18 10:20:03 | INFO     | OlistConnector |   📊 customers       5 cols | 0.0% nulls
+2026-07-18 10:20:03 | INFO     | OlistConnector |   📊 products        9 cols | 0.0% nulls
+2026-07-18 10:20:03 | INFO     | OlistConnector |   📊 sellers         4 cols | 0.0% nulls
+2026-07-18 10:20:03 | INFO     | OlistConnector |   📊 payments        5 cols | 0.0% nulls
+2026-07-18 10:20:03 | INFO     | OlistConnector |   📊 reviews         7 cols | 21.0% nulls
+2026-07-18 10:20:03 | INFO     | OlistConnector |   📊 geolocation     5 cols | 0.0% nulls
+2026-07-18 10:21:29 | INFO     | pipeline | ============================================================
+2026-07-18 10:21:29 | INFO     | pipeline | 🚀 DATAOPS PLATFORM — PIPELINE PRINCIPAL
+2026-07-18 10:21:29 | INFO     | pipeline |    Démarrage : 2026-07-18T09:21:29.654085
+2026-07-18 10:21:29 | INFO     | pipeline | ============================================================
+2026-07-18 10:21:30 | INFO     | ingestion.base.uploader | ✅ GCS connecté → gs://dataops-pfa-datalake
+2026-07-18 10:21:31 | INFO     | ingestion.base.uploader | ✅ GCS connecté → gs://dataops-pfa-datalake
+2026-07-18 10:21:31 | INFO     | ingestion.base.uploader | ✅ GCS connecté → gs://dataops-pfa-datalake
+2026-07-18 10:21:31 | INFO     | pipeline | 
+──────────────────────────────────────────────────
+2026-07-18 10:21:31 | INFO     | pipeline | ▶  📦 Olist Dataset
+2026-07-18 10:21:31 | INFO     | pipeline | ──────────────────────────────────────────────────
+2026-07-18 10:21:31 | INFO     | OlistConnector | 🚀 Démarrage OlistConnector
+2026-07-18 10:21:31 | INFO     | OlistConnector | 📂 Lecture depuis : data/
+2026-07-18 10:21:31 | INFO     | OlistConnector |   ✅ orders          16.8 MB
+2026-07-18 10:21:31 | INFO     | OlistConnector |   ✅ order_items     14.7 MB
+2026-07-18 10:21:31 | INFO     | OlistConnector |   ✅ customers       8.6 MB
+2026-07-18 10:21:31 | INFO     | OlistConnector |   ✅ products        2.3 MB
+2026-07-18 10:21:31 | INFO     | OlistConnector |   ✅ sellers         0.2 MB
+2026-07-18 10:21:31 | INFO     | OlistConnector |   ✅ payments        5.5 MB
+2026-07-18 10:21:31 | INFO     | OlistConnector |   ✅ reviews         13.8 MB
+2026-07-18 10:21:31 | INFO     | OlistConnector |   ✅ geolocation     58.4 MB
+2026-07-18 10:21:31 | INFO     | OlistConnector |   📊 orders          8 cols | 0.38% nulls
+2026-07-18 10:21:31 | INFO     | OlistConnector |   📊 order_items     7 cols | 0.0% nulls
+2026-07-18 10:21:31 | INFO     | OlistConnector |   📊 customers       5 cols | 0.0% nulls
+2026-07-18 10:21:31 | INFO     | OlistConnector |   📊 products        9 cols | 0.0% nulls
+2026-07-18 10:21:31 | INFO     | OlistConnector |   📊 sellers         4 cols | 0.0% nulls
+2026-07-18 10:21:31 | INFO     | OlistConnector |   📊 payments        5 cols | 0.0% nulls
+2026-07-18 10:21:31 | INFO     | OlistConnector |   📊 reviews         7 cols | 21.0% nulls
+2026-07-18 10:21:31 | INFO     | OlistConnector |   📊 geolocation     5 cols | 0.0% nulls
+2026-07-18 10:22:02 | INFO     | ingestion.base.uploader | 📤 olist_orders_dataset.csv → gs://dataops-pfa-datalake/raw/olist/orders/olist_orders_dataset.csv (16.8 MB)
+2026-07-18 10:22:34 | INFO     | ingestion.base.uploader | 📤 olist_order_items_dataset.csv → gs://dataops-pfa-datalake/raw/olist/order_items/olist_order_items_dataset.csv (14.7 MB)
+2026-07-18 10:23:34 | ERROR    | OlistConnector | ❌ OlistConnector échoué : Upload échoué data/olist_customers_dataset.csv : ('Connection aborted.', TimeoutError('The write operation timed out'))
+2026-07-18 10:23:34 | INFO     | pipeline | 
+──────────────────────────────────────────────────
+2026-07-18 10:23:34 | INFO     | pipeline | ▶  💱 Exchange Rates
+2026-07-18 10:23:34 | INFO     | pipeline | ──────────────────────────────────────────────────
+2026-07-18 10:23:34 | INFO     | ExchangeConnector | 🚀 Démarrage ExchangeConnector
+2026-07-18 10:23:34 | INFO     | ExchangeConnector | 📡 Appel Exchange Rate API — base: BRL
+2026-07-18 10:23:45 | INFO     | ExchangeConnector |    1 BRL = 0.1960 USD
+2026-07-18 10:23:45 | INFO     | ExchangeConnector |    1 BRL = 0.1711 EUR
+2026-07-18 10:23:45 | INFO     | ExchangeConnector |    1 BRL = 1.8363 MAD
+2026-07-18 10:23:45 | INFO     | ExchangeConnector |    1 BRL = 0.1456 GBP
+2026-07-18 10:23:45 | INFO     | ExchangeConnector |    1 BRL = 290.2684 ARS
+2026-07-18 10:23:45 | INFO     | ExchangeConnector |    1 BRL = 3.4242 MXN
+2026-07-18 10:23:58 | INFO     | ingestion.base.uploader | 📤 JSON → gs://dataops-pfa-datalake/raw/api/exchange_rates/rates_2026-07-18_09-23.json
+2026-07-18 10:23:58 | INFO     | ExchangeConnector | ✅ ExchangeConnector terminé
+2026-07-18 10:23:58 | INFO     | pipeline | 
+──────────────────────────────────────────────────
+2026-07-18 10:23:58 | INFO     | pipeline | ▶  🌤️  Weather Data
+2026-07-18 10:23:58 | INFO     | pipeline | ──────────────────────────────────────────────────
+2026-07-18 10:23:58 | INFO     | WeatherConnector | 🚀 Démarrage WeatherConnector
+2026-07-18 10:23:58 | INFO     | WeatherConnector | 📡 Météo pour 10 villes...
+2026-07-18 10:24:00 | INFO     | WeatherConnector |    ✅ Sao Paulo             15.8°C  ciel dégagé
+2026-07-18 10:24:01 | INFO     | WeatherConnector |    ✅ Rio de Janeiro        23.1°C  ciel dégagé
+2026-07-18 10:24:03 | INFO     | WeatherConnector |    ✅ Belo Horizonte        14.8°C  ciel dégagé
+2026-07-18 10:24:04 | INFO     | WeatherConnector |    ✅ Brasilia              12.2°C  ciel dégagé
+2026-07-18 10:24:05 | INFO     | WeatherConnector |    ✅ Curitiba              11.7°C  ciel dégagé
+2026-07-18 10:24:05 | INFO     | WeatherConnector |    ✅ Porto Alegre          26.3°C  nuageux
+2026-07-18 10:24:06 | INFO     | WeatherConnector |    ✅ Salvador              24.6°C  couvert
+2026-07-18 10:24:07 | INFO     | WeatherConnector |    ✅ Fortaleza             25.7°C  partiellement nuageux
+2026-07-18 10:24:07 | INFO     | WeatherConnector |    ✅ Manaus                25.1°C  couvert
+2026-07-18 10:24:08 | INFO     | WeatherConnector |    ✅ Recife                24.4°C  couvert
+2026-07-18 10:24:08 | INFO     | WeatherConnector | ✅ 10/10 villes récupérées
+2026-07-18 10:24:10 | INFO     | ingestion.base.uploader | 📤 JSON → gs://dataops-pfa-datalake/raw/api/weather/weather_2026-07-18_09-24.json
+2026-07-18 10:24:10 | INFO     | WeatherConnector | ✅ WeatherConnector terminé
+2026-07-18 10:24:10 | INFO     | pipeline | 
+============================================================
+2026-07-18 10:24:10 | INFO     | pipeline | 📊 RAPPORT FINAL
+2026-07-18 10:24:10 | INFO     | pipeline | ============================================================
+2026-07-18 10:24:10 | INFO     | pipeline |   ❌ FAILED  📦 Olist Dataset
+2026-07-18 10:24:10 | INFO     | pipeline |   ✅ SUCCESS  💱 Exchange Rates
+2026-07-18 10:24:10 | INFO     | pipeline |   ✅ SUCCESS  🌤️  Weather Data
+2026-07-18 10:24:10 | INFO     | pipeline | 
+⏱️  Durée totale : 160s
+2026-07-18 10:24:10 | INFO     | pipeline | ============================================================
+2026-07-18 10:24:10 | ERROR    | pipeline | 💥 Pipeline terminé avec des erreurs !
+2026-07-18 10:37:49 | INFO     | pipeline | ============================================================
+2026-07-18 10:37:49 | INFO     | pipeline | 🚀 DATAOPS PLATFORM — PIPELINE PRINCIPAL
+2026-07-18 10:37:49 | INFO     | pipeline |    Démarrage : 2026-07-18T09:37:49.188691
+2026-07-18 10:37:49 | INFO     | pipeline | ============================================================
+2026-07-18 10:37:55 | INFO     | ingestion.base.uploader | ✅ GCS connecté → gs://dataops-pfa-datalake
+2026-07-18 10:37:56 | INFO     | ingestion.base.uploader | ✅ GCS connecté → gs://dataops-pfa-datalake
+2026-07-18 10:37:57 | INFO     | ingestion.base.uploader | ✅ GCS connecté → gs://dataops-pfa-datalake
+2026-07-18 10:37:57 | INFO     | pipeline | 
+──────────────────────────────────────────────────
+2026-07-18 10:37:57 | INFO     | pipeline | ▶  📦 Olist Dataset
+2026-07-18 10:37:57 | INFO     | pipeline | ──────────────────────────────────────────────────
+2026-07-18 10:37:57 | INFO     | OlistConnector | 🚀 Démarrage OlistConnector
+2026-07-18 10:37:57 | INFO     | OlistConnector | 📂 Lecture depuis : data/
+2026-07-18 10:37:57 | INFO     | OlistConnector |   ✅ orders          16.8 MB
+2026-07-18 10:37:57 | INFO     | OlistConnector |   ✅ order_items     14.7 MB
+2026-07-18 10:37:57 | INFO     | OlistConnector |   ✅ customers       8.6 MB
+2026-07-18 10:37:57 | INFO     | OlistConnector |   ✅ products        2.3 MB
+2026-07-18 10:37:57 | INFO     | OlistConnector |   ✅ sellers         0.2 MB
+2026-07-18 10:37:57 | INFO     | OlistConnector |   ✅ payments        5.5 MB
+2026-07-18 10:37:57 | INFO     | OlistConnector |   ✅ reviews         13.8 MB
+2026-07-18 10:37:57 | INFO     | OlistConnector |   ✅ geolocation     58.4 MB
+2026-07-18 10:37:57 | INFO     | OlistConnector |   📊 orders          8 cols | 0.38% nulls
+2026-07-18 10:37:57 | INFO     | OlistConnector |   📊 order_items     7 cols | 0.0% nulls
+2026-07-18 10:37:57 | INFO     | OlistConnector |   📊 customers       5 cols | 0.0% nulls
+2026-07-18 10:37:57 | INFO     | OlistConnector |   📊 products        9 cols | 0.0% nulls
+2026-07-18 10:37:57 | INFO     | OlistConnector |   📊 sellers         4 cols | 0.0% nulls
+2026-07-18 10:37:57 | INFO     | OlistConnector |   📊 payments        5 cols | 0.0% nulls
+2026-07-18 10:37:57 | INFO     | OlistConnector |   📊 reviews         7 cols | 21.0% nulls
+2026-07-18 10:37:57 | INFO     | OlistConnector |   📊 geolocation     5 cols | 0.0% nulls
+2026-07-18 10:37:59 | INFO     | OlistConnector | ⏭️  Déjà uploadé : orders
+2026-07-18 10:38:00 | INFO     | OlistConnector | ⏭️  Déjà uploadé : order_items
+2026-07-18 10:38:23 | INFO     | ingestion.base.uploader | 📤 olist_customers_dataset.csv → gs://dataops-pfa-datalake/raw/olist/customers/olist_customers_dataset.csv (8.6 MB)
+2026-07-18 10:38:32 | INFO     | ingestion.base.uploader | 📤 olist_products_dataset.csv → gs://dataops-pfa-datalake/raw/olist/products/olist_products_dataset.csv (2.3 MB)
+2026-07-18 10:38:33 | INFO     | ingestion.base.uploader | 📤 olist_sellers_dataset.csv → gs://dataops-pfa-datalake/raw/olist/sellers/olist_sellers_dataset.csv (0.2 MB)
+2026-07-18 10:39:56 | INFO     | ingestion.base.uploader | 📤 olist_order_payments_dataset.csv → gs://dataops-pfa-datalake/raw/olist/payments/olist_order_payments_dataset.csv (5.5 MB)
+2026-07-18 10:42:50 | INFO     | ingestion.base.uploader | 📤 olist_order_reviews_dataset.csv → gs://dataops-pfa-datalake/raw/olist/reviews/olist_order_reviews_dataset.csv (13.8 MB)

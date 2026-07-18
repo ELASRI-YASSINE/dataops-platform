@@ -1,31 +1,41 @@
+# common/logger.py
+"""
+Logger centralisé — utilisé par tous les modules
+Format uniforme avec timestamp, niveau, module
+"""
 import logging
 import os
-from pathlib import Path
+import sys
+from datetime import datetime
 
-# Dossier des logs
-LOG_DIR = Path("logs")
-LOG_DIR.mkdir(exist_ok=True)
+def get_logger(name: str) -> logging.Logger:
+    """
+    Retourne un logger configuré pour le module donné
+    Usage : logger = get_logger(__name__)
+    """
+    logger = logging.getLogger(name)
 
-LOG_FILE = LOG_DIR / "dataops.log"
+    if logger.handlers:
+        return logger
 
-logger = logging.getLogger("dataops")
-logger.setLevel(logging.INFO)
+    logger.setLevel(logging.INFO)
 
-# Évite les handlers dupliqués
-if not logger.handlers:
-
+    # Format : 2025-06-15 10:23:01 | INFO | ingestion.olist | message
     formatter = logging.Formatter(
-        "%(asctime)s | %(levelname)s | %(name)s | %(message)s",
+        fmt="%(asctime)s | %(levelname)-8s | %(name)s | %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S"
     )
 
-    # Affichage terminal
-    console_handler = logging.StreamHandler()
-    console_handler.setFormatter(formatter)
+    # Console handler
+    console = logging.StreamHandler(sys.stdout)
+    console.setFormatter(formatter)
+    logger.addHandler(console)
 
-    # Écriture dans un fichier
-    file_handler = logging.FileHandler(LOG_FILE)
-    file_handler.setFormatter(formatter)
+    # File handler
+    os.makedirs("logs", exist_ok=True)
+    today     = datetime.now().strftime("%Y-%m-%d")
+    file_h    = logging.FileHandler(f"logs/pipeline_{today}.log")
+    file_h.setFormatter(formatter)
+    logger.addHandler(file_h)
 
-    logger.addHandler(console_handler)
-    logger.addHandler(file_handler)
+    return logger
