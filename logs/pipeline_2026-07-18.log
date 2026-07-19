@@ -313,3 +313,87 @@
 2026-07-18 12:50:58 | INFO     | spark.clean_olist |   ❌ FAILED  customers
 2026-07-18 12:50:58 | INFO     | spark.clean_olist |   ❌ FAILED  products
 2026-07-18 12:50:58 | INFO     | spark.clean_olist |   ❌ FAILED  reviews
+2026-07-18 22:00:02 | INFO     | pipeline | ============================================================
+2026-07-18 22:00:02 | INFO     | pipeline | 🚀 DATAOPS PLATFORM — PIPELINE PRINCIPAL
+2026-07-18 22:00:02 | INFO     | pipeline |    Démarrage : 2026-07-18T21:00:02.896062
+2026-07-18 22:00:02 | INFO     | pipeline | ============================================================
+2026-07-18 22:00:09 | INFO     | ingestion.base.uploader | ✅ GCS connecté → gs://dataops-pfa-datalake
+2026-07-18 22:00:10 | INFO     | ingestion.base.uploader | ✅ GCS connecté → gs://dataops-pfa-datalake
+2026-07-18 22:00:11 | INFO     | ingestion.base.uploader | ✅ GCS connecté → gs://dataops-pfa-datalake
+2026-07-18 22:00:11 | INFO     | pipeline | 
+──────────────────────────────────────────────────
+2026-07-18 22:00:11 | INFO     | pipeline | ▶  📦 Olist Dataset
+2026-07-18 22:00:11 | INFO     | pipeline | ──────────────────────────────────────────────────
+2026-07-18 22:00:11 | INFO     | OlistConnector | 🚀 Démarrage OlistConnector
+2026-07-18 22:00:11 | INFO     | OlistConnector | 📂 Lecture depuis : data/
+2026-07-18 22:00:11 | INFO     | OlistConnector |   ✅ orders          16.8 MB
+2026-07-18 22:00:11 | INFO     | OlistConnector |   ✅ order_items     14.7 MB
+2026-07-18 22:00:11 | INFO     | OlistConnector |   ✅ customers       8.6 MB
+2026-07-18 22:00:11 | INFO     | OlistConnector |   ✅ products        2.3 MB
+2026-07-18 22:00:11 | INFO     | OlistConnector |   ✅ sellers         0.2 MB
+2026-07-18 22:00:11 | INFO     | OlistConnector |   ✅ payments        5.5 MB
+2026-07-18 22:00:11 | INFO     | OlistConnector |   ✅ reviews         13.8 MB
+2026-07-18 22:00:11 | INFO     | OlistConnector |   ✅ geolocation     58.4 MB
+2026-07-18 22:00:11 | INFO     | OlistConnector |   📊 orders          8 cols | 0.38% nulls
+2026-07-18 22:00:11 | INFO     | OlistConnector |   📊 order_items     7 cols | 0.0% nulls
+2026-07-18 22:00:11 | INFO     | OlistConnector |   📊 customers       5 cols | 0.0% nulls
+2026-07-18 22:00:11 | INFO     | OlistConnector |   📊 products        9 cols | 0.0% nulls
+2026-07-18 22:00:11 | INFO     | OlistConnector |   📊 sellers         4 cols | 0.0% nulls
+2026-07-18 22:00:11 | INFO     | OlistConnector |   📊 payments        5 cols | 0.0% nulls
+2026-07-18 22:00:11 | INFO     | OlistConnector |   📊 reviews         7 cols | 21.0% nulls
+2026-07-18 22:00:11 | INFO     | OlistConnector |   📊 geolocation     5 cols | 0.0% nulls
+2026-07-18 22:00:54 | INFO     | OlistConnector | ⏭️  Déjà uploadé : orders
+2026-07-18 22:00:59 | INFO     | OlistConnector | ⏭️  Déjà uploadé : order_items
+2026-07-18 22:01:04 | INFO     | OlistConnector | ⏭️  Déjà uploadé : customers
+2026-07-18 22:01:05 | INFO     | OlistConnector | ⏭️  Déjà uploadé : products
+2026-07-18 22:01:06 | INFO     | OlistConnector | ⏭️  Déjà uploadé : sellers
+2026-07-18 22:01:11 | INFO     | OlistConnector | ⏭️  Déjà uploadé : payments
+2026-07-18 22:01:13 | INFO     | OlistConnector | ⏭️  Déjà uploadé : reviews
+2026-07-18 22:01:23 | INFO     | OlistConnector | ⏭️  Déjà uploadé : geolocation
+2026-07-18 22:01:48 | INFO     | ingestion.base.uploader | 📤 JSON → gs://dataops-pfa-datalake/raw/olist/metadata/ingestion_report.json
+2026-07-18 22:01:48 | INFO     | OlistConnector | ✅ 8/8 tables | 8 déjà présentes
+2026-07-18 22:01:48 | INFO     | OlistConnector | ✅ OlistConnector terminé
+2026-07-18 22:01:48 | INFO     | pipeline | 
+──────────────────────────────────────────────────
+2026-07-18 22:01:48 | INFO     | pipeline | ▶  💱 Exchange Rates
+2026-07-18 22:01:48 | INFO     | pipeline | ──────────────────────────────────────────────────
+2026-07-18 22:01:48 | INFO     | ExchangeConnector | 🚀 Démarrage ExchangeConnector
+2026-07-18 22:01:48 | INFO     | ExchangeConnector | 📡 Appel Exchange Rate API — base: BRL
+2026-07-18 22:02:07 | INFO     | ExchangeConnector |    1 BRL = 0.1960 USD
+2026-07-18 22:02:07 | INFO     | ExchangeConnector |    1 BRL = 0.1711 EUR
+2026-07-18 22:02:07 | INFO     | ExchangeConnector |    1 BRL = 1.8363 MAD
+2026-07-18 22:02:07 | INFO     | ExchangeConnector |    1 BRL = 0.1456 GBP
+2026-07-18 22:02:07 | INFO     | ExchangeConnector |    1 BRL = 290.2684 ARS
+2026-07-18 22:02:07 | INFO     | ExchangeConnector |    1 BRL = 3.4242 MXN
+2026-07-18 22:02:47 | INFO     | ingestion.base.uploader | 📤 JSON → gs://dataops-pfa-datalake/raw/api/exchange_rates/rates_2026-07-18_21-02.json
+2026-07-18 22:02:47 | INFO     | ExchangeConnector | ✅ ExchangeConnector terminé
+2026-07-18 22:02:47 | INFO     | pipeline | 
+──────────────────────────────────────────────────
+2026-07-18 22:02:47 | INFO     | pipeline | ▶  🌤️  Weather Data
+2026-07-18 22:02:47 | INFO     | pipeline | ──────────────────────────────────────────────────
+2026-07-18 22:02:47 | INFO     | WeatherConnector | 🚀 Démarrage WeatherConnector
+2026-07-18 22:02:47 | INFO     | WeatherConnector | 📡 Météo pour 10 villes...
+2026-07-18 22:02:48 | INFO     | WeatherConnector |    ✅ Sao Paulo             20.9°C  ciel dégagé
+2026-07-18 22:02:49 | INFO     | WeatherConnector |    ✅ Rio de Janeiro        24.8°C  ciel dégagé
+2026-07-18 22:02:50 | INFO     | WeatherConnector |    ✅ Belo Horizonte        19.5°C  ciel dégagé
+2026-07-18 22:02:52 | INFO     | WeatherConnector |    ✅ Brasilia              19.4°C  ciel dégagé
+2026-07-18 22:03:06 | INFO     | WeatherConnector |    ✅ Curitiba              19.2°C  ciel dégagé
+2026-07-18 22:03:07 | INFO     | WeatherConnector |    ✅ Porto Alegre          30.1°C  ciel dégagé
+2026-07-18 22:03:08 | INFO     | WeatherConnector |    ✅ Salvador              24.5°C  nuageux
+2026-07-18 22:03:10 | INFO     | WeatherConnector |    ✅ Fortaleza             27.9°C  ciel dégagé
+2026-07-18 22:03:11 | INFO     | WeatherConnector |    ✅ Manaus                31.0°C  couvert
+2026-07-18 22:03:11 | INFO     | WeatherConnector |    ✅ Recife                24.5°C  couvert
+2026-07-18 22:03:11 | INFO     | WeatherConnector | ✅ 10/10 villes récupérées
+2026-07-18 22:03:13 | INFO     | ingestion.base.uploader | 📤 JSON → gs://dataops-pfa-datalake/raw/api/weather/weather_2026-07-18_21-03.json
+2026-07-18 22:03:13 | INFO     | WeatherConnector | ✅ WeatherConnector terminé
+2026-07-18 22:03:13 | INFO     | pipeline | 
+============================================================
+2026-07-18 22:03:13 | INFO     | pipeline | 📊 RAPPORT FINAL
+2026-07-18 22:03:13 | INFO     | pipeline | ============================================================
+2026-07-18 22:03:13 | INFO     | pipeline |   ✅ SUCCESS  📦 Olist Dataset
+2026-07-18 22:03:13 | INFO     | pipeline |   ✅ SUCCESS  💱 Exchange Rates
+2026-07-18 22:03:13 | INFO     | pipeline |   ✅ SUCCESS  🌤️  Weather Data
+2026-07-18 22:03:13 | INFO     | pipeline | 
+⏱️  Durée totale : 190s
+2026-07-18 22:03:13 | INFO     | pipeline | ============================================================
+2026-07-18 22:03:13 | INFO     | pipeline | 🎉 Pipeline terminé avec succès !

@@ -1,0 +1,11 @@
+[2026-07-19T09:29:44.164+0000] {processor.py:161} INFO - Started process (PID=122) to work on /opt/airflow/dags/ingestion_dag.py
+[2026-07-19T09:29:44.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_dag.py for tasks to queue
+[2026-07-19T09:29:44.167+0000] {logging_mixin.py:188} INFO - [2026-07-19T09:29:44.166+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_dag.py
+[2026-07-19T09:29:44.181+0000] {processor.py:840} INFO - DAG(s) 'ingestion_pipeline' retrieved from /opt/airflow/dags/ingestion_dag.py
+[2026-07-19T09:29:44.293+0000] {logging_mixin.py:188} INFO - [2026-07-19T09:29:44.293+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:ingestion_pipeline
+[2026-07-19T09:29:44.306+0000] {logging_mixin.py:188} INFO - [2026-07-19T09:29:44.305+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:ingestion_pipeline
+[2026-07-19T09:29:44.314+0000] {logging_mixin.py:188} INFO - [2026-07-19T09:29:44.314+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:ingestion_pipeline
+[2026-07-19T09:29:44.315+0000] {logging_mixin.py:188} INFO - [2026-07-19T09:29:44.315+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-07-19T09:29:44.326+0000] {logging_mixin.py:188} INFO - [2026-07-19T09:29:44.326+0000] {dag.py:3058} INFO - Creating ORM DAG for ingestion_pipeline
+[2026-07-19T09:29:44.338+0000] {logging_mixin.py:188} INFO - [2026-07-19T09:29:44.338+0000] {dag.py:3823} INFO - Setting next_dagrun for ingestion_pipeline to 2026-07-18 05:00:00+00:00, run_after=2026-07-19 05:00:00+00:00
+[2026-07-19T09:29:44.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_dag.py took 0.199 seconds

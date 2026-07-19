@@ -373,3 +373,766 @@
 [2026-07-18T20:55:54.167+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:55:54.167+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-07-18T20:55:54.217+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:55:54.217+0000] {dag.py:3823} INFO - Setting next_dagrun for dataops_pipeline to 2026-07-17 00:00:00+00:00, run_after=2026-07-18 00:00:00+00:00
 [2026-07-18T20:55:54.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.158 seconds
+[2026-07-18T20:56:24.442+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:56:24.444+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T20:56:24.446+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:56:24.446+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:56:24.474+0000] {processor.py:840} INFO - DAG(s) 'dataops_pipeline' retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:56:24.505+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:56:24.505+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-07-18T20:56:24.560+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:56:24.560+0000] {dag.py:3823} INFO - Setting next_dagrun for dataops_pipeline to 2026-07-17 00:00:00+00:00, run_after=2026-07-18 00:00:00+00:00
+[2026-07-18T20:56:24.607+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.170 seconds
+[2026-07-18T20:56:54.664+0000] {processor.py:161} INFO - Started process (PID=247) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:56:54.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T20:56:54.668+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:56:54.667+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:56:54.687+0000] {processor.py:840} INFO - DAG(s) 'dataops_pipeline' retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:56:54.713+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:56:54.713+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-07-18T20:56:54.752+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:56:54.752+0000] {dag.py:3823} INFO - Setting next_dagrun for dataops_pipeline to 2026-07-17 00:00:00+00:00, run_after=2026-07-18 00:00:00+00:00
+[2026-07-18T20:56:54.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.131 seconds
+[2026-07-18T20:57:24.970+0000] {processor.py:161} INFO - Started process (PID=252) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:57:24.971+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T20:57:24.974+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:57:24.973+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:57:24.994+0000] {processor.py:840} INFO - DAG(s) 'dataops_pipeline' retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:57:25.021+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:57:25.020+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-07-18T20:57:25.064+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:57:25.064+0000] {dag.py:3823} INFO - Setting next_dagrun for dataops_pipeline to 2026-07-17 00:00:00+00:00, run_after=2026-07-18 00:00:00+00:00
+[2026-07-18T20:57:25.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.145 seconds
+[2026-07-18T20:57:55.168+0000] {processor.py:161} INFO - Started process (PID=257) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:57:55.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T20:57:55.173+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:57:55.172+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:57:55.199+0000] {processor.py:840} INFO - DAG(s) 'dataops_pipeline' retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:57:55.230+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:57:55.230+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-07-18T20:57:55.281+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:57:55.281+0000] {dag.py:3823} INFO - Setting next_dagrun for dataops_pipeline to 2026-07-17 00:00:00+00:00, run_after=2026-07-18 00:00:00+00:00
+[2026-07-18T20:57:55.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.159 seconds
+[2026-07-18T20:58:25.487+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:58:25.489+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T20:58:25.492+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:58:25.491+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:58:25.525+0000] {processor.py:840} INFO - DAG(s) 'dataops_pipeline' retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:58:25.560+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:58:25.560+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-07-18T20:58:25.607+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:58:25.607+0000] {dag.py:3823} INFO - Setting next_dagrun for dataops_pipeline to 2026-07-17 00:00:00+00:00, run_after=2026-07-18 00:00:00+00:00
+[2026-07-18T20:58:25.652+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.173 seconds
+[2026-07-18T20:58:55.705+0000] {processor.py:161} INFO - Started process (PID=267) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:58:55.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T20:58:55.710+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:58:55.709+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:58:55.734+0000] {processor.py:840} INFO - DAG(s) 'dataops_pipeline' retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:58:55.765+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:58:55.765+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-07-18T20:58:55.818+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:58:55.817+0000] {dag.py:3823} INFO - Setting next_dagrun for dataops_pipeline to 2026-07-17 00:00:00+00:00, run_after=2026-07-18 00:00:00+00:00
+[2026-07-18T20:58:55.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.164 seconds
+[2026-07-18T20:59:26.042+0000] {processor.py:161} INFO - Started process (PID=272) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:59:26.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T20:59:26.046+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:59:26.045+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:59:26.072+0000] {processor.py:840} INFO - DAG(s) 'dataops_pipeline' retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:59:26.105+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:59:26.104+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-07-18T20:59:26.149+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:59:26.149+0000] {dag.py:3823} INFO - Setting next_dagrun for dataops_pipeline to 2026-07-17 00:00:00+00:00, run_after=2026-07-18 00:00:00+00:00
+[2026-07-18T20:59:26.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.149 seconds
+[2026-07-18T20:59:56.236+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:59:56.238+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T20:59:56.240+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:59:56.240+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:59:56.263+0000] {processor.py:840} INFO - DAG(s) 'dataops_pipeline' retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T20:59:56.288+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:59:56.288+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-07-18T20:59:56.331+0000] {logging_mixin.py:188} INFO - [2026-07-18T20:59:56.330+0000] {dag.py:3823} INFO - Setting next_dagrun for dataops_pipeline to 2026-07-17 00:00:00+00:00, run_after=2026-07-18 00:00:00+00:00
+[2026-07-18T20:59:56.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.138 seconds
+[2026-07-18T21:00:26.544+0000] {processor.py:161} INFO - Started process (PID=282) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:00:26.546+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:00:26.548+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:00:26.547+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:00:26.567+0000] {processor.py:840} INFO - DAG(s) 'dataops_pipeline' retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:00:26.592+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:00:26.591+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-07-18T21:00:26.634+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:00:26.634+0000] {dag.py:3823} INFO - Setting next_dagrun for dataops_pipeline to 2026-07-17 00:00:00+00:00, run_after=2026-07-18 00:00:00+00:00
+[2026-07-18T21:00:26.666+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.127 seconds
+[2026-07-18T21:00:56.734+0000] {processor.py:161} INFO - Started process (PID=287) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:00:56.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:00:56.739+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:00:56.738+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:00:56.770+0000] {processor.py:840} INFO - DAG(s) 'dataops_pipeline' retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:00:56.803+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:00:56.803+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-07-18T21:00:56.986+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:00:56.985+0000] {dag.py:3823} INFO - Setting next_dagrun for dataops_pipeline to 2026-07-17 00:00:00+00:00, run_after=2026-07-18 00:00:00+00:00
+[2026-07-18T21:00:57.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.299 seconds
+[2026-07-18T21:01:27.208+0000] {processor.py:161} INFO - Started process (PID=292) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:01:27.210+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:01:27.212+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:01:27.211+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:01:27.231+0000] {processor.py:840} INFO - DAG(s) 'dataops_pipeline' retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:01:27.258+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:01:27.257+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-07-18T21:01:27.302+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:01:27.301+0000] {dag.py:3823} INFO - Setting next_dagrun for dataops_pipeline to 2026-07-17 00:00:00+00:00, run_after=2026-07-18 00:00:00+00:00
+[2026-07-18T21:01:27.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.135 seconds
+[2026-07-18T21:01:50.363+0000] {processor.py:161} INFO - Started process (PID=297) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:01:50.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:01:50.368+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:01:50.367+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:01:50.379+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:01:50.377+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:01:50.380+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:01:50.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.075 seconds
+[2026-07-18T21:02:20.536+0000] {processor.py:161} INFO - Started process (PID=302) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:02:20.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:02:20.540+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:02:20.539+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:02:20.547+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:02:20.545+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:02:20.547+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:02:20.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.060 seconds
+[2026-07-18T21:02:50.799+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:02:50.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:02:50.803+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:02:50.802+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:02:50.811+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:02:50.809+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:02:50.812+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:02:50.855+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.062 seconds
+[2026-07-18T21:03:21.001+0000] {processor.py:161} INFO - Started process (PID=312) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:03:21.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:03:21.007+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:03:21.006+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:03:21.018+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:03:21.015+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:03:21.019+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:03:21.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.072 seconds
+[2026-07-18T21:03:51.228+0000] {processor.py:161} INFO - Started process (PID=317) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:03:51.229+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:03:51.231+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:03:51.231+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:03:51.240+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:03:51.238+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:03:51.241+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:03:51.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.059 seconds
+[2026-07-18T21:04:21.452+0000] {processor.py:161} INFO - Started process (PID=322) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:04:21.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:04:21.456+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:04:21.456+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:04:21.464+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:04:21.463+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:04:21.465+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:04:21.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.054 seconds
+[2026-07-18T21:04:51.674+0000] {processor.py:161} INFO - Started process (PID=327) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:04:51.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:04:51.678+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:04:51.677+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:04:51.684+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:04:51.683+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:04:51.685+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:04:51.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.058 seconds
+[2026-07-18T21:05:21.863+0000] {processor.py:161} INFO - Started process (PID=332) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:05:21.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:05:21.867+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:05:21.866+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:05:21.877+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:05:21.872+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:05:21.877+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:05:21.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.062 seconds
+[2026-07-18T21:05:52.080+0000] {processor.py:161} INFO - Started process (PID=337) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:05:52.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:05:52.085+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:05:52.085+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:05:52.095+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:05:52.093+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:05:52.095+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:05:52.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.060 seconds
+[2026-07-18T21:06:22.287+0000] {processor.py:161} INFO - Started process (PID=342) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:06:22.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:06:22.293+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:06:22.292+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:06:22.305+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:06:22.304+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:06:22.306+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:06:22.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.063 seconds
+[2026-07-18T21:06:52.493+0000] {processor.py:161} INFO - Started process (PID=347) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:06:52.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:06:52.501+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:06:52.500+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:06:52.514+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:06:52.512+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:06:52.515+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:06:52.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.078 seconds
+[2026-07-18T21:07:22.698+0000] {processor.py:161} INFO - Started process (PID=352) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:07:22.700+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:07:22.703+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:07:22.702+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:07:22.712+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:07:22.710+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:07:22.713+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:07:22.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.075 seconds
+[2026-07-18T21:07:52.925+0000] {processor.py:161} INFO - Started process (PID=357) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:07:52.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:07:52.930+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:07:52.929+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:07:52.938+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:07:52.937+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:07:52.939+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:07:52.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.060 seconds
+[2026-07-18T21:08:23.135+0000] {processor.py:161} INFO - Started process (PID=362) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:08:23.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:08:23.140+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:08:23.139+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:08:23.149+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:08:23.147+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:08:23.150+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:08:23.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.079 seconds
+[2026-07-18T21:08:53.334+0000] {processor.py:161} INFO - Started process (PID=367) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:08:53.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:08:53.338+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:08:53.337+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:08:53.345+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:08:53.343+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:08:53.345+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:08:53.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.060 seconds
+[2026-07-18T21:09:23.587+0000] {processor.py:161} INFO - Started process (PID=372) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:09:23.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:09:23.591+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:09:23.590+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:09:23.598+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:09:23.597+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:09:23.599+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:09:23.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.059 seconds
+[2026-07-18T21:09:53.782+0000] {processor.py:161} INFO - Started process (PID=377) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:09:53.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:09:53.786+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:09:53.785+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:09:53.793+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:09:53.792+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:09:53.794+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:09:53.838+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.061 seconds
+[2026-07-18T21:10:24.057+0000] {processor.py:161} INFO - Started process (PID=382) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:10:24.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:10:24.060+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:10:24.060+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:10:24.068+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:10:24.067+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:10:24.069+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:10:24.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.057 seconds
+[2026-07-18T21:10:54.249+0000] {processor.py:161} INFO - Started process (PID=387) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:10:54.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:10:54.253+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:10:54.253+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:10:54.260+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:10:54.258+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:10:54.261+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:10:54.307+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.066 seconds
+[2026-07-18T21:11:24.482+0000] {processor.py:161} INFO - Started process (PID=392) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:11:24.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:11:24.486+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:11:24.485+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:11:24.493+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:11:24.491+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:11:24.494+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:11:24.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.059 seconds
+[2026-07-18T21:11:54.683+0000] {processor.py:161} INFO - Started process (PID=397) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:11:54.685+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:11:54.691+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:11:54.691+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:11:54.702+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:11:54.700+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:11:54.704+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:11:54.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.069 seconds
+[2026-07-18T21:12:24.902+0000] {processor.py:161} INFO - Started process (PID=402) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:12:24.905+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:12:24.911+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:12:24.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:12:24.929+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:12:24.925+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:12:24.932+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:12:25.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.115 seconds
+[2026-07-18T21:12:55.124+0000] {processor.py:161} INFO - Started process (PID=407) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:12:55.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:12:55.129+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:12:55.129+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:12:55.136+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:12:55.135+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:12:55.137+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:12:55.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.064 seconds
+[2026-07-18T21:13:25.367+0000] {processor.py:161} INFO - Started process (PID=412) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:13:25.368+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:13:25.370+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:13:25.369+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:13:25.376+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:13:25.375+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:13:25.377+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:13:25.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.055 seconds
+[2026-07-18T21:13:55.562+0000] {processor.py:161} INFO - Started process (PID=417) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:13:55.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:13:55.565+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:13:55.565+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:13:55.577+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:13:55.571+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:13:55.578+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:13:55.614+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.058 seconds
+[2026-07-18T21:14:25.795+0000] {processor.py:161} INFO - Started process (PID=422) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:14:25.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:14:25.799+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:14:25.798+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:14:25.806+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:14:25.804+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:14:25.807+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:14:25.844+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.053 seconds
+[2026-07-18T21:14:55.988+0000] {processor.py:161} INFO - Started process (PID=427) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:14:55.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:14:55.992+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:14:55.992+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:14:56.010+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:14:56.005+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:14:56.011+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:14:56.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.071 seconds
+[2026-07-18T21:15:26.210+0000] {processor.py:161} INFO - Started process (PID=432) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:15:26.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:15:26.215+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:15:26.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:15:26.228+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:15:26.226+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:15:26.229+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:15:26.280+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.076 seconds
+[2026-07-18T21:15:56.419+0000] {processor.py:161} INFO - Started process (PID=437) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:15:56.420+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:15:56.422+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:15:56.422+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:15:56.428+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:15:56.427+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:15:56.429+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:15:56.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.062 seconds
+[2026-07-18T21:16:26.634+0000] {processor.py:161} INFO - Started process (PID=442) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:16:26.636+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:16:26.638+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:16:26.637+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:16:26.644+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:16:26.643+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:16:26.645+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:16:26.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.063 seconds
+[2026-07-18T21:16:56.829+0000] {processor.py:161} INFO - Started process (PID=447) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:16:56.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:16:56.832+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:16:56.832+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:16:56.842+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:16:56.840+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:16:56.842+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:16:56.887+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.063 seconds
+[2026-07-18T21:17:27.054+0000] {processor.py:161} INFO - Started process (PID=452) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:17:27.056+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:17:27.059+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:17:27.058+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:17:27.065+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:17:27.064+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:17:27.066+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:17:27.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.051 seconds
+[2026-07-18T21:17:57.263+0000] {processor.py:161} INFO - Started process (PID=457) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:17:57.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:17:57.267+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:17:57.266+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:17:57.275+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:17:57.273+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:17:57.276+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:17:57.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.064 seconds
+[2026-07-18T21:18:27.476+0000] {processor.py:161} INFO - Started process (PID=462) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:18:27.479+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:18:27.480+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:18:27.480+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:18:27.487+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:18:27.485+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:18:27.487+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:18:27.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.058 seconds
+[2026-07-18T21:18:57.680+0000] {processor.py:161} INFO - Started process (PID=467) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:18:57.681+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:18:57.683+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:18:57.683+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:18:57.693+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:18:57.688+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:18:57.694+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:18:57.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.062 seconds
+[2026-07-18T21:19:27.920+0000] {processor.py:161} INFO - Started process (PID=472) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:19:27.922+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:19:27.924+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:19:27.923+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:19:27.931+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:19:27.929+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:19:27.931+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:19:27.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.057 seconds
+[2026-07-18T21:19:58.119+0000] {processor.py:161} INFO - Started process (PID=477) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:19:58.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:19:58.122+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:19:58.122+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:19:58.134+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:19:58.131+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:19:58.135+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:19:58.177+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.063 seconds
+[2026-07-18T21:20:28.330+0000] {processor.py:161} INFO - Started process (PID=482) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:20:28.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:20:28.335+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:20:28.334+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:20:28.342+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:20:28.341+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:20:28.343+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:20:28.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.066 seconds
+[2026-07-18T21:20:58.534+0000] {processor.py:161} INFO - Started process (PID=487) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:20:58.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:20:58.537+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:20:58.537+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:20:58.549+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:20:58.546+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:20:58.552+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:20:58.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.068 seconds
+[2026-07-18T21:21:28.740+0000] {processor.py:161} INFO - Started process (PID=492) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:21:28.742+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:21:28.745+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:21:28.744+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:21:28.759+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:21:28.755+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:21:28.760+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:21:28.807+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.072 seconds
+[2026-07-18T21:21:59.129+0000] {processor.py:161} INFO - Started process (PID=497) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:21:59.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:21:59.138+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:21:59.136+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:21:59.157+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:21:59.153+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:21:59.160+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:21:59.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.137 seconds
+[2026-07-18T21:22:29.438+0000] {processor.py:161} INFO - Started process (PID=502) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:22:29.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:22:29.448+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:22:29.446+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:22:29.475+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:22:29.469+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:22:29.477+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:22:29.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.163 seconds
+[2026-07-18T21:22:59.912+0000] {processor.py:161} INFO - Started process (PID=507) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:22:59.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:22:59.923+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:22:59.922+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:22:59.948+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:22:59.942+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:22:59.950+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:23:00.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.168 seconds
+[2026-07-18T21:23:30.265+0000] {processor.py:161} INFO - Started process (PID=512) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:23:30.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:23:30.274+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:23:30.273+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:23:30.291+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:23:30.287+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:23:30.292+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:23:30.388+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.139 seconds
+[2026-07-18T21:24:00.569+0000] {processor.py:161} INFO - Started process (PID=517) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:24:00.574+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:24:00.580+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:24:00.578+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:24:00.604+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:24:00.599+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:24:00.606+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:24:00.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.166 seconds
+[2026-07-18T21:24:31.077+0000] {processor.py:161} INFO - Started process (PID=522) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:24:31.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:24:31.086+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:24:31.085+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:24:31.107+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:24:31.102+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:24:31.110+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:24:31.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.140 seconds
+[2026-07-18T21:25:01.425+0000] {processor.py:161} INFO - Started process (PID=527) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:25:01.429+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:25:01.435+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:25:01.433+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:25:01.459+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:25:01.454+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:25:01.461+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:25:01.565+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.155 seconds
+[2026-07-18T21:25:31.855+0000] {processor.py:161} INFO - Started process (PID=532) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:25:31.859+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T21:25:31.863+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:25:31.862+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:25:31.882+0000] {logging_mixin.py:188} INFO - [2026-07-18T21:25:31.878+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T21:25:31.885+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T21:25:31.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.148 seconds
+[2026-07-18T23:00:25.147+0000] {processor.py:161} INFO - Started process (PID=543) to work on /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T23:00:25.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataops_pipeline.py for tasks to queue
+[2026-07-18T23:00:25.158+0000] {logging_mixin.py:188} INFO - [2026-07-18T23:00:25.156+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T23:00:25.181+0000] {logging_mixin.py:188} INFO - [2026-07-18T23:00:25.175+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dataops_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dataops_pipeline.py", line 6, in <module>
+    from dataops.orchestration.tasks.ingestion import create_ingestion_task
+ModuleNotFoundError: No module named 'dataops'
+[2026-07-18T23:00:25.184+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dataops_pipeline.py
+[2026-07-18T23:00:25.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataops_pipeline.py took 0.159 seconds
